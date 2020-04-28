@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CE828BC2456BBAE00C17BD0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE828BB2456BBAE00C17BD0 /* AppDelegate.swift */; };
+		2CE828BE2456BBAE00C17BD0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE828BD2456BBAE00C17BD0 /* SceneDelegate.swift */; };
+		2CE828C02456BBAE00C17BD0 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE828BF2456BBAE00C17BD0 /* OnboardingViewController.swift */; };
+		2CE828C32456BBAE00C17BD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CE828C12456BBAE00C17BD0 /* Main.storyboard */; };
+		2CE828C52456BBAF00C17BD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CE828C42456BBAF00C17BD0 /* Assets.xcassets */; };
+		2CE828C82456BBAF00C17BD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CE828C62456BBAF00C17BD0 /* LaunchScreen.storyboard */; };
+		2CE828D22456CF1B00C17BD0 /* OnboardingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE828D12456CF1B00C17BD0 /* OnboardingItem.swift */; };
+		2CE828D42456CF3300C17BD0 /* QuoteCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE828D32456CF3300C17BD0 /* QuoteCollectionViewCell.swift */; };
+		2CE828D72457219200C17BD0 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE828D62457219200C17BD0 /* MainViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2CE828B82456BBAE00C17BD0 /* onboarding-fashion-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "onboarding-fashion-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CE828BB2456BBAE00C17BD0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2CE828BD2456BBAE00C17BD0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2CE828BF2456BBAE00C17BD0 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		2CE828C22456BBAE00C17BD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2CE828C42456BBAF00C17BD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2CE828C72456BBAF00C17BD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2CE828C92456BBAF00C17BD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CE828D12456CF1B00C17BD0 /* OnboardingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingItem.swift; sourceTree = "<group>"; };
+		2CE828D32456CF3300C17BD0 /* QuoteCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteCollectionViewCell.swift; sourceTree = "<group>"; };
+		2CE828D62457219200C17BD0 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CE828B52456BBAE00C17BD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CE828AF2456BBAE00C17BD0 = {
+			isa = PBXGroup;
+			children = (
+				2CE828BA2456BBAE00C17BD0 /* onboarding-fashion-app */,
+				2CE828B92456BBAE00C17BD0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2CE828B92456BBAE00C17BD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CE828B82456BBAE00C17BD0 /* onboarding-fashion-app.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CE828BA2456BBAE00C17BD0 /* onboarding-fashion-app */ = {
+			isa = PBXGroup;
+			children = (
+				2CE828BB2456BBAE00C17BD0 /* AppDelegate.swift */,
+				2CE828BD2456BBAE00C17BD0 /* SceneDelegate.swift */,
+				2CE828CF2456CE9C00C17BD0 /* Model */,
+				2CE828D52456D0E600C17BD0 /* Controller */,
+				2CE828D02456CEDF00C17BD0 /* CustomCell */,
+				2CE828C12456BBAE00C17BD0 /* Main.storyboard */,
+				2CE828C42456BBAF00C17BD0 /* Assets.xcassets */,
+				2CE828C62456BBAF00C17BD0 /* LaunchScreen.storyboard */,
+				2CE828C92456BBAF00C17BD0 /* Info.plist */,
+			);
+			path = "onboarding-fashion-app";
+			sourceTree = "<group>";
+		};
+		2CE828CF2456CE9C00C17BD0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2CE828D12456CF1B00C17BD0 /* OnboardingItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2CE828D02456CEDF00C17BD0 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				2CE828D32456CF3300C17BD0 /* QuoteCollectionViewCell.swift */,
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		2CE828D52456D0E600C17BD0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2CE828BF2456BBAE00C17BD0 /* OnboardingViewController.swift */,
+				2CE828D62457219200C17BD0 /* MainViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CE828B72456BBAE00C17BD0 /* onboarding-fashion-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CE828CC2456BBAF00C17BD0 /* Build configuration list for PBXNativeTarget "onboarding-fashion-app" */;
+			buildPhases = (
+				2CE828B42456BBAE00C17BD0 /* Sources */,
+				2CE828B52456BBAE00C17BD0 /* Frameworks */,
+				2CE828B62456BBAE00C17BD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "onboarding-fashion-app";
+			productName = "onboarding-fashion-app";
+			productReference = 2CE828B82456BBAE00C17BD0 /* onboarding-fashion-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CE828B02456BBAE00C17BD0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = trungnghia;
+				TargetAttributes = {
+					2CE828B72456BBAE00C17BD0 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = 2CE828B32456BBAE00C17BD0 /* Build configuration list for PBXProject "onboarding-fashion-app" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2CE828AF2456BBAE00C17BD0;
+			productRefGroup = 2CE828B92456BBAE00C17BD0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CE828B72456BBAE00C17BD0 /* onboarding-fashion-app */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CE828B62456BBAE00C17BD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CE828C82456BBAF00C17BD0 /* LaunchScreen.storyboard in Resources */,
+				2CE828C52456BBAF00C17BD0 /* Assets.xcassets in Resources */,
+				2CE828C32456BBAE00C17BD0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CE828B42456BBAE00C17BD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CE828C02456BBAE00C17BD0 /* OnboardingViewController.swift in Sources */,
+				2CE828D22456CF1B00C17BD0 /* OnboardingItem.swift in Sources */,
+				2CE828D42456CF3300C17BD0 /* QuoteCollectionViewCell.swift in Sources */,
+				2CE828D72457219200C17BD0 /* MainViewController.swift in Sources */,
+				2CE828BC2456BBAE00C17BD0 /* AppDelegate.swift in Sources */,
+				2CE828BE2456BBAE00C17BD0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2CE828C12456BBAE00C17BD0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CE828C22456BBAE00C17BD0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2CE828C62456BBAF00C17BD0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CE828C72456BBAF00C17BD0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CE828CA2456BBAF00C17BD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2CE828CB2456BBAF00C17BD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CE828CD2456BBAF00C17BD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6ANAV862CX;
+				INFOPLIST_FILE = "onboarding-fashion-app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.trungnghia2020.onboarding-fashion-app1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2CE828CE2456BBAF00C17BD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6ANAV862CX;
+				INFOPLIST_FILE = "onboarding-fashion-app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.trungnghia2020.onboarding-fashion-app1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CE828B32456BBAE00C17BD0 /* Build configuration list for PBXProject "onboarding-fashion-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CE828CA2456BBAF00C17BD0 /* Debug */,
+				2CE828CB2456BBAF00C17BD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CE828CC2456BBAF00C17BD0 /* Build configuration list for PBXNativeTarget "onboarding-fashion-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CE828CD2456BBAF00C17BD0 /* Debug */,
+				2CE828CE2456BBAF00C17BD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CE828B02456BBAE00C17BD0 /* Project object */;
+}
